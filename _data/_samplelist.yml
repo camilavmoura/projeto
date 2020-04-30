@@ -1,9 +1,6 @@
 docs_list_title: Navigation bar
 docs:
 
-- title: Home
-  url: index.markdown
-
 - title: About
   url: about.markdown
 
