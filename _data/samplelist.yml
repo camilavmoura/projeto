@@ -2,16 +2,16 @@ docs_list_title: Navigation bar
 docs:
 
 - title: Home
-  url: index.html
+  url: index
 
 - title: About
-  url: about.html
+  url: about
   
 - title: Piadas
-  url: piada.html
+  url: piada
 
 - title: Work
-  url: work.html
+  url: work
 
 - title: Contacts
-  url: contacts.html
+  url: contacts
