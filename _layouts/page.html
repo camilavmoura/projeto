@@ -8,14 +8,3 @@ layout: default
 <div class="post-content e-content" itemprop="articleBody">
 	{{ content }}
 </div>
-
-<nav>
-	<ul>
-		{% for piadas in site.piadas %}
-		<li>
-			<a href="{{site.baseurl}}/dinastia/{{rei.slug}}">{{piadas.title}}</a>
-			<p>{{piadas.category}}</p>
-		</li>
-		{% endfor %}
-	</ul>
-</nav>
