@@ -6,6 +6,9 @@ docs:
 
 - title: About
   url: about.html
+  
+- title: Piadas
+  url: piada.html
 
 - title: Work
   url: work.html

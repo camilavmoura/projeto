@@ -40,6 +40,11 @@ defaults:
       path: ""
     values:
         layout: "post"
+        
+collections:
+    piadas:
+        output: true
+        permalink: /piadas/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

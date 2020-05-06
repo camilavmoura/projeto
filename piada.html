@@ -1,0 +1,17 @@
+---
+layout: page
+title: Piadas
+permalink: /work/
+---
+
+<h2>Piadas</h2>
+<nav>
+	<ul>
+		{% for piadas in site.piadas %}
+		<li>
+			<a href="{{site.baseurl}}/piadas/{{piadas.slug}}">{{piadas.title}}</a>
+			<p>{{piadas.category}}</p>
+		</li>
+		{% endfor %}
+	</ul>
+</nav>
